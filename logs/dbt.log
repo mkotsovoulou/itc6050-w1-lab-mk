@@ -1,0 +1,59 @@
+[0m18:01:55.529969 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c6871f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d742700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d742a30>]}
+
+
+============================== 18:01:55.531600 | 17e3df0d-2bcd-404f-bf60-35f6f37a106d ==============================
+[0m18:01:55.531600 [info ] [MainThread]: Running with dbt=1.10.20
+[0m18:01:55.531824 [debug] [MainThread]: running dbt with arguments {'fail_fast': 'False', 'quiet': 'False', 'profiles_dir': '/Users/mairako/.dbt', 'write_json': 'True', 'no_print': 'None', 'use_colors': 'True', 'printer_width': '80', 'static_parser': 'True', 'introspect': 'True', 'warn_error': 'None', 'log_cache_events': 'False', 'send_anonymous_usage_stats': 'True', 'invocation_command': 'dbt init analytics', 'log_path': 'logs', 'cache_selected_only': 'False', 'partial_parse': 'True', 'log_format': 'default', 'use_experimental_parser': 'False', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'indirect_selection': 'eager', 'debug': 'False', 'empty': 'None'}
+[0m18:01:55.538922 [info ] [MainThread]: Creating dbt configuration folder at /Users/mairako/.dbt
+[0m18:01:55.539615 [debug] [MainThread]: Starter project path: /Users/mairako/Library/CloudStorage/OneDrive-ByteComputer/ByteDocuments/1 PERSONAL/DEREE/ICT 6050 Data Engineering/EXERCISES/itc6050-w1-lab/.venv/lib/python3.9/site-packages/dbt/include/starter_project
+[0m18:01:55.542171 [info ] [MainThread]: 
+Your new dbt project "analytics" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:01:55.542323 [info ] [MainThread]: Setting up your profile.
+[0m18:02:49.175624 [info ] [MainThread]: Profile analytics written to /Users/mairako/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m18:02:49.179961 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 53.684856, "process_in_blocks": "0", "process_kernel_time": 0.103464, "process_mem_max_rss": "107184128", "process_out_blocks": "0", "process_user_time": 0.588669}
+[0m18:02:49.180652 [debug] [MainThread]: Command `dbt init` succeeded at 18:02:49.180532 after 53.69 seconds
+[0m18:02:49.181017 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c6871f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d704040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10dc9c8b0>]}
+[0m18:02:49.181523 [debug] [MainThread]: Flushing usage events
+[0m18:02:49.890843 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:18:00.065818 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1084071c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1094c26d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1094c2a00>]}
+
+
+============================== 18:18:00.067484 | e449fcf4-84dc-453a-bd61-467c809f6f14 ==============================
+[0m18:18:00.067484 [info ] [MainThread]: Running with dbt=1.10.20
+[0m18:18:00.067719 [debug] [MainThread]: running dbt with arguments {'introspect': 'True', 'log_format': 'default', 'indirect_selection': 'eager', 'write_json': 'True', 'version_check': 'True', 'profiles_dir': '/Users/mairako/.dbt', 'warn_error': 'None', 'empty': 'None', 'use_experimental_parser': 'False', 'debug': 'False', 'fail_fast': 'False', 'log_cache_events': 'False', 'log_path': 'logs', 'printer_width': '80', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'quiet': 'False', 'invocation_command': 'dbt init analytics', 'no_print': 'None', 'use_colors': 'True', 'send_anonymous_usage_stats': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'partial_parse': 'True'}
+[0m18:18:00.071978 [info ] [MainThread]: A project called analytics already exists here.
+[0m18:18:00.073088 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.039445292, "process_in_blocks": "0", "process_kernel_time": 0.083911, "process_mem_max_rss": "103809024", "process_out_blocks": "0", "process_user_time": 0.543472}
+[0m18:18:00.073242 [debug] [MainThread]: Command `dbt init` succeeded at 18:18:00.073203 after 0.04 seconds
+[0m18:18:00.073360 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1084071c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1094413a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10944ac10>]}
+[0m18:18:00.073488 [debug] [MainThread]: Flushing usage events
+[0m18:18:00.749716 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:24:49.232215 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10851f1f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1095d9490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1095d97c0>]}
+
+
+============================== 18:24:49.233860 | 1d5ddcfa-5352-4caf-8e09-4dd39994a771 ==============================
+[0m18:24:49.233860 [info ] [MainThread]: Running with dbt=1.10.20
+[0m18:24:49.234078 [debug] [MainThread]: running dbt with arguments {'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'target_path': 'None', 'printer_width': '80', 'cache_selected_only': 'False', 'partial_parse': 'True', 'write_json': 'True', 'static_parser': 'True', 'fail_fast': 'False', 'empty': 'False', 'use_colors': 'True', 'warn_error': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True', 'introspect': 'True', 'quiet': 'False', 'use_experimental_parser': 'False', 'profiles_dir': '/Users/mairako/.dbt', 'no_print': 'None', 'log_format': 'default', 'log_path': 'logs', 'log_cache_events': 'False', 'debug': 'False', 'indirect_selection': 'eager'}
+[0m18:24:49.234280 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/mairako/Library/CloudStorage/OneDrive-ByteComputer/ByteDocuments/1 PERSONAL/DEREE/ICT 6050 Data Engineering/EXERCISES/itc6050-w1-lab/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m18:24:49.235292 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.035072166, "process_in_blocks": "0", "process_kernel_time": 0.081808, "process_mem_max_rss": "103006208", "process_out_blocks": "0", "process_user_time": 0.532773}
+[0m18:24:49.235446 [debug] [MainThread]: Command `dbt run` failed at 18:24:49.235410 after 0.04 seconds
+[0m18:24:49.235560 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10851f1f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1095c3850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1095c3b20>]}
+[0m18:24:49.235677 [debug] [MainThread]: Flushing usage events
+[0m18:24:49.992660 [debug] [MainThread]: An error was encountered while trying to flush usage events

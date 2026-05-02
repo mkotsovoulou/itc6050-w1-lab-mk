@@ -1,0 +1,8 @@
+#!/bin/sh
+'''exec' "/Users/mairako/Library/CloudStorage/OneDrive-ByteComputer/ByteDocuments/1 PERSONAL/DEREE/ICT 6050 Data Engineering/EXERCISES/itc6050-w1-lab/.venv/bin/python3" "$0" "$@"
+' '''
+import sys
+from jsonschema.cli import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())
