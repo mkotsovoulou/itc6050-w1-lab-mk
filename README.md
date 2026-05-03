@@ -1,4 +1,5 @@
 # ITC 6050 - Week 1 Lab
+Solution
 
 ## Create a Venv with your packages
 python3 -m venv .venv
