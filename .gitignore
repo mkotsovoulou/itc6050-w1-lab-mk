@@ -4,5 +4,4 @@ __pycache__/
 target/
 dbt_packages/
 .streamlit/secrets.toml
-.streamlit/secrets.toml
 .venv/

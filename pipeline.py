@@ -1,6 +1,9 @@
 #pip install 'dlt[postgres]' dbt-core dbt-postgres streamlit pandas requests psycopg2-binary python-dotenv
 #pip list or
 #pip show dlt
+
+## Go to your browser and check-> https://api.github.com/repos/dlt-hub/dlt
+
 import dlt
 import requests
 
