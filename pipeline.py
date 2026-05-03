@@ -1,3 +1,6 @@
+#pip install 'dlt[postgres]' dbt-core dbt-postgres streamlit pandas requests psycopg2-binary python-dotenv
+#pip list or
+#pip show dlt
 import dlt
 import requests
 

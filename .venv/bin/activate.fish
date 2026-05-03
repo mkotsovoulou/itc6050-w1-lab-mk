@@ -29,7 +29,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/mairako/Library/CloudStorage/OneDrive-ByteComputer/ByteDocuments/1 PERSONAL/DEREE/ICT 6050 Data Engineering/EXERCISES/itc6050-w1-lab/.venv"
+set -gx VIRTUAL_ENV "/Users/mairako/Library/CloudStorage/OneDrive-ByteComputer/ByteDocuments/1 PERSONAL/DEREE/ITC 6050 Data Engineering/EXERCISES/itc6050-w1-lab/.venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
